@@ -1,0 +1,14 @@
+<div class="p-8">
+  <h1 class="mb-4">Form Control (Standalone)</h1>
+
+  <mat-form-field>
+    <mat-label>Name</mat-label>
+    <input
+      matInput
+      placeholder="label"
+      [formControl]="name"
+    />
+  </mat-form-field>
+
+  <p>form control value: {{ name.value }}</p>
+</div>
