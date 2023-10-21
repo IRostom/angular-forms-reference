@@ -8,9 +8,10 @@ import { FormControlBasicComponent } from './form-control-basic/form-control-bas
 import { ReactiveFormsModule } from '@angular/forms';
 import { SharedModule } from './shared/shared.module';
 import { FormGroupBasicComponent } from './form-group-basic/form-group-basic.component';
+import { FormBuilderServiceComponent } from './form-builder-service/form-builder-service.component';
 
 @NgModule({
-  declarations: [AppComponent, FormControlBasicComponent, FormGroupBasicComponent],
+  declarations: [AppComponent, FormControlBasicComponent, FormGroupBasicComponent, FormBuilderServiceComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
